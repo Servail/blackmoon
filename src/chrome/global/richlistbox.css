@@ -7,7 +7,7 @@
 richlistbox {
   -moz-appearance: none;
   margin: 2px 4px;
-  background-color: rgb(75,75,75);
+  background-color: rgb(0,0,0);
   color: #fff;
 }
 
@@ -16,20 +16,20 @@ richlistbox[disabled="true"] {
 }
 
 richlistitem[selected="true"] {
-  background-color: rgb(110,110,110);
+  background-color: rgb(1,1,1);
   color: #fff;
 }
 
 richlistbox:focus > richlistitem[selected="true"] {
-  background-color: rgb(110,110,110);
+  background-color: rgb(1,1,1);
   color: #fff;
 }
 
 richlistbox[seltype="multiple"]:focus > richlistitem[current="true"] {
-  outline: 1px dotted rgb(50,50,50);
+  outline: 1px dotted rgb(64,64,64);
   outline-offset: -1px;
 }
 
 richlistbox[seltype="multiple"]:focus > richlistitem[current="true"][selected="true"] {
-  outline: 1px dotted rgb(60,60,60);
+  outline: 1px dotted rgb(64,64,64);
 }

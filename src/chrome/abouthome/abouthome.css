@@ -1,7 +1,7 @@
 html {
   font: message-box;
   font-size: 100%;
-  background-color: rgb(43, 43, 43);
+  background-color: rgb(64, 64, 64);
   color: #000;
   height: 100%;
 }
@@ -75,9 +75,9 @@ a {
   -moz-box-flex: 1;
   color: #fff;
   padding: 6px 8px;
-  background-color: rgb(50, 50, 50);
+  background-color: rgb(0, 0, 0);
   border: 1px solid;
-  border-color: rgb(75, 75, 75);
+  border-color: rgb(64, 64, 64);
   border-radius: 5px 0 0 5px;
 }
 
@@ -87,16 +87,16 @@ a {
 
 #searchText:focus,
 #searchText[autofocus] {
-  border-color: rgb(110, 110, 110);
+  border-color: rgb(128, 128, 128);
 }
 
 #searchSubmit {
   margin-inline-start: -1px;
   padding: 0 9px;
   color: #fff;
-  background-color: rgb(60, 60, 60);
+  background-color: rgb(0, 0, 0);
   border: 1px solid;
-  border-color: rgb(75, 75, 75);
+  border-color: rgb(64, 64, 64);
   border-radius: 0 5px 5px 0;
   cursor: pointer;
   transition-property: background-color, border-color, box-shadow;
@@ -110,13 +110,13 @@ a {
 #searchText:focus + #searchSubmit,
 #searchText + #searchSubmit:hover,
 #searchText[autofocus] + #searchSubmit {
-  border-color: rgb(110, 110, 110);
-  background-color: rgb(75, 75, 75);
+  border-color: rgb(128, 128, 128);
+  background-color: rgb(0, 0, 0);
 }
 
 #searchText + #searchSubmit:hover:active {
-  border-color: rgb(75, 75, 75);
-  background-color: rgb(23, 23, 23);
+  border-color: rgb(64, 64, 64);
+  background-color: rgb(0, 0, 0);
 }
 
 #launcher {
@@ -124,8 +124,8 @@ a {
   -moz-box-align: center;
   -moz-box-pack: center;
   width: 100%;
-  background-color: rgb(50, 50, 50);
-  border-top: 1px solid rgb(75, 75, 75);
+  background-color: rgb(0, 0, 0);
+  border-top: 1px solid rgb(64, 64, 64);
 }
 
 #launcher:not([session]),
@@ -158,12 +158,12 @@ body[narrow] #launcher[session] > .launchButton {
 }
 
 .launchButton:hover {
-  background-color: rgb(75, 75, 75);
+  background-color: rgb(0, 0, 0);
 }
 
 .launchButton:hover:active {
-  background-color: rgb(23, 23, 23);
-  border-color: rgb(75, 75, 75);
+  background-color: rgb(0, 0, 0);
+  border-color: rgb(64, 64, 64);
 }
 
 .launchButton[hidden],
@@ -177,7 +177,7 @@ body[narrow] #launcher[session] > .launchButton {
   height: 100px;
   margin: 0 10px;
   border-left: 1px solid;
-  border-left-color: rgb(75, 75, 75);
+  border-left-color: rgb(64, 64, 64);
 }
 
 body[narrow] #restorePreviousSessionSeparator {

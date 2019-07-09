@@ -43,6 +43,7 @@ tab {
   -moz-border-top-colors: rgb(64,64,64);
   -moz-border-right-colors: rgb(64,64,64);
   -moz-border-left-colors: rgb(64,64,64);
+  -moz-border-bottom-colors: rgb(64,64,64);
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
   padding: 1px 4px 2px 4px;
@@ -61,7 +62,7 @@ tab:-moz-locale-dir(rtl) {
 
 tab[selected="true"] {
   margin-top: 0;
-  background-color: rgb(0,0,0);
+  background-color: rgb(16,16,16);
   border-bottom-color: transparent;
   padding: 1px 6px 4px 6px;
 }

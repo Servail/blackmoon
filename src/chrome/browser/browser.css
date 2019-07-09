@@ -73,7 +73,7 @@
 
 #navigator-toolbox {
   -moz-appearance: none;
-  background-color: rgb(0,0,0)//transparent;
+  background-color: rgb(0,0,0); /*transparent;*/
   border-top: none;
   color: #fff;
 }
@@ -841,11 +841,11 @@ toolbar:not([brighttext]) #tabview-button {
 #urlbar,
 .searchbar-textbox {
   -moz-appearance: none;
-  margin: 1px 3px;
-  padding: 2px;
+  margin: 0px;/* 1px 3px; */
+  padding: 0px;/* 2px; */
   background-clip: padding-box;
   border: 1px solid;
-  border-color: rgba(64,64,64,1);
+  border-color: rgba(32,32,32,1);
   border-radius: 0px;
   background-color: rgb(0,0,0);
   color: #fff;

@@ -49,7 +49,7 @@
   padding: 18px;
   background-repeat: repeat;
   color: #fff;
-  background-color: rgb(43,43,43);
+  background-color: rgb(0,0,0);
 }
 
 html|html {
@@ -68,8 +68,8 @@ html|html {
   /* Disabled because of bug 623615
   overflow: hidden;
   */
-  background-color: rgb(43,43,43);
-  border: 1px solid rgb(75,75,75);
+  background-color: rgb(0,0,0);
+  border: 1px solid rgb(64,64,64);
   color: #fff;
   border-radius: 5px;
 }
@@ -81,7 +81,7 @@ html|html {
     -moz-appearance: none;
     color: #fff;
     padding: 0 5px;
-    background-color: rgb(50,50,50);
+    background-color: rgb(0,0,0);
     background-clip: padding-box;
     border-radius: 3px;
     border: 1px solid rgb(75,75,75);
@@ -99,11 +99,11 @@ html|html {
   button[disabled="true"],
   menulist[disabled="true"],
   colorpicker[type="button"][disabled="true"] {
-    -moz-border-top-colors: rgb(75,75,75) !important;
-    -moz-border-right-colors: rgb(75,75,75) !important;
-    -moz-border-bottom-colors: rgb(75,75,75) !important;
-    -moz-border-left-colors: rgb(75,75,75) !important;
-	background-color: rgb(62,62,62);
+    -moz-border-top-colors: rgb(64,64,64) !important;
+    -moz-border-right-colors: rgb(64,64,64) !important;
+    -moz-border-bottom-colors: rgb(64,64,64) !important;
+    -moz-border-left-colors: rgb(64,64,64) !important;
+	background-color: rgb(0,0,0);
     color: #GrayText;
   }
 
@@ -117,7 +117,7 @@ html|html {
   
   html|button:not([disabled]):hover,
   button:not([disabled="true"]):hover {
-	background-color: rgb(75,75,75);
+	background-color: rgb(0,0,0);
   }
 
   button > .button-box {

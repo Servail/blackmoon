@@ -10,8 +10,8 @@
   -moz-appearance: none;
   margin: 3px 4px 10px 4px;
   height: 14em;
-  border: 1px solid rgb(75,75,75);
-  background-color: rgb(50,50,50);
+  border: 1px solid rgb(64,64,64);
+  background-color: rgb(0,0,0);
   color: #fff;
 }
 
@@ -28,7 +28,7 @@ installitem {
   padding-bottom: 5px;
   padding-inline-start: 5px;
   padding-inline-end: 0;
-  border-bottom: 1px dotted rgb(75,75,75);
+  border-bottom: 1px dotted rgb(64,64,64);
   margin-bottom: 5px;
 }
 
@@ -64,7 +64,7 @@ installitem {
   -moz-appearance: none;
   border: none;
   padding: 0;
-  background-color: rgb(50,50,50);
+  background-color: rgb(0,0,0);
   color: #fff;
   margin-top: 1px;
   margin-bottom: 1px;

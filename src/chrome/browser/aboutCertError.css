@@ -4,7 +4,7 @@
 
 
 html {
-  background: rgb(43, 43, 43);
+  background: rgb(0, 0, 0);
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 
 h1 {
   margin: 0 0 .6em 0;
-  border-bottom: 1px solid rgb(75, 75, 75);
+  border-bottom: 1px solid rgb(64, 64, 64);
   font-size: 160%;
 }
 
@@ -33,7 +33,7 @@ h2 {
   border-radius: 10px;
   padding: 3em;
   padding-inline-start: 30px;
-  background: url("chrome://global/skin/icons/sslWarning.png") left 0 no-repeat rgb(50, 50, 50);
+  background: url("chrome://global/skin/icons/sslWarning.png") left 0 no-repeat rgb(0, 0, 0);
   background-origin: content-box;
 }
 

@@ -55,17 +55,17 @@
 }
 
 #placesMenu > menu[_moz-menuactive="true"] {
-  background-color: rgb(110,110,110);
+  background-color: rgb(0,0,0);
 }
 
 #placesMenu > menu:hover {
-  border: 1px solid rgb(50,50,50);
-  background-color: rgb(75,75,75);
+  border: 1px solid rgb(64,64,64);
+  background-color: rgb(0,0,0);
 }
 
 #placesMenu > menu[open="true"] {
-  border: 1px solid rgb(50,50,50);
-  background-color: rgb(110,110,110);
+  border: 1px solid rgb(64,64,64);
+  background-color: rgb(0,0,0);
 }
 
 #placesMenu > menu > .menubar-text {
@@ -101,12 +101,12 @@
 
 /* Root View */
 #placesView {
-  border-top: 1px solid rgb(75,75,75);
+  border-top: 1px solid rgb(64,64,64);
 }
 
 /* Info box */
 #detailsDeck {
-  border-top: 1px solid rgb(75,75,75);
+  border-top: 1px solid rgb(64,64,64);
   padding: 5px;
 }
 
@@ -141,12 +141,12 @@
 }
 
 #placesToolbar {
-  background-color: rgb(43,43,43);
+  background-color: rgb(0,0,0);
 }
   
 #placesView > splitter {
   border: 0;
-  border-inline-end: 1px solid rgb(75,75,75);
+  border-inline-end: 1px solid rgb(64,64,64);
   min-width: 0;
   width: 3px;
   background-color: transparent;
@@ -159,16 +159,16 @@
 }
 
 #detailsDeck {
-  border-top-color: rgb(75,75,75);
+  border-top-color: rgb(64,64,64);
 }
 
 #searchFilter {
   -moz-appearance: none;
   padding: 4px;
   padding-inline-start: 6px;
-  background-color: rgb(50,50,50);
+  background-color: rgb(0,0,0);
   background-clip: padding-box;
-  border: 1px solid rgb(75,75,75);
+  border: 1px solid rgb(64,64,64);
   border-radius: 5px;
 }
 
@@ -177,14 +177,14 @@
   margin-left: 7px;
 }
 #placesToolbar > toolbarbutton:not([disabled="true"]):hover {
-  border: 1px solid rgb(50,50,50);
-  background-color: rgb(75,75,75);
+  border: 1px solid rgb(64,64,64);
+  background-color: rgb(0,0,0);
 }
 
 #placesToolbar > toolbarbutton:not([disabled="true"]):hover:active,
 #placesToolbar > toolbarbutton:not([disabled="true"])[open="true"] {
-  border: 1px solid rgb(50,50,50);
-  background-color: rgb(110,110,110);
+  border: 1px solid rgb(64,64,64);
+  background-color: rgb(0,0,0);
 }
 #placesToolbar > toolbarbutton > .toolbarbutton-icon {
   margin-right: 4px;

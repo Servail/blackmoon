@@ -3,7 +3,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 :root {
-  background-color: rgb(23,23,23);
+  background-color: rgb(0,0,0);
   color: #fff;
   font: message-box;
   padding-left: 2em;
@@ -11,20 +11,20 @@
 }
 
 body {
-  border: 1px solid rgb(50,50,50);
+  border: 1px solid rgb(64,64,64);
   border-radius: 10px;
   padding: 3em;
   min-width: 30em;
   max-width: 65em;
   margin: 4em auto;
-  background-color: rgb(43,43,43);
+  background-color: rgb(0,0,0);
   color: #fff;
 }
 
 h1 {
   font-size: 160%;
   margin: 0 0 .6em;
-  border-bottom: 1px solid rgb(50,50,50);
+  border-bottom: 1px solid rgb(64,64,64);
   font-weight: normal;
 }
 

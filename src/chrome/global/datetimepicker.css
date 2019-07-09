@@ -61,7 +61,7 @@ timepicker[disabled="true"] {
 .datepicker-mainbox {
   margin: 2px 4px;
   border: 1px solid rgb(0,0,0);
-  background-color: rgb(75,75,75);
+  background-color: rgb(0,0,0);
   color: #fff;
 }
 

@@ -13,14 +13,14 @@
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
 .console-box {
-  background-color: rgb(23,23,23);
+  background-color: rgb(0,0,0);
   color: #fff;
 }
 
 /* ::::: console rows ::::: */
 
 .console-row {
-  border-bottom: 1px solid rgb(75,75,75);
+  border-bottom: 1px solid rgb(64,64,64);
   padding: 4px 0px;
 }
 
@@ -81,11 +81,11 @@
 /* ..... selected state ..... */
 
 .console-row:hover {
-  background-color: rgb(75,75,75);
+  background-color: rgb(0,0,0);
 }
 
 .console-row[selected="true"] {
-  background-color: rgb(110,110,110);
+  background-color: rgb(1,1,1);
 }
 
 .console-row-code[selected="true"],
@@ -141,12 +141,12 @@ toolbarseparator {
 }
 
 #ToolbarMode toolbarbutton:hover {
-  background-color: rgb(75,75,75);
+  background-color: rgb(0,0,0);
 }
 
 toolbar#ToolbarMode toolbarbutton:active,
 toolbar#ToolbarMode toolbarbutton[checked="true"] {
-  background-color: rgb(110,110,110);
+  background-color: rgb(1,1,1);
   padding-inline-start: 5px !important;
   padding-inline-end: 3px !important;
 }

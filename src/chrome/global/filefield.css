@@ -9,13 +9,13 @@
 filefield {
   margin: 2px 4px;
   -moz-appearance: none;
-  background-color: rgb(75,75,75);
+  background-color: rgb(0,0,0);
   color: #fff;
   border-color: rgb(50,50,50);
 }
 
 .fileFieldContentBox {
-  background-color: rgb(75,75,75);
+  background-color: rgb(0,0,0);
   color: #fff;
 }
 

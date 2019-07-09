@@ -7,10 +7,10 @@ tabmodalprompt {
 
 .mainContainer {
   color: #fff;
-  background-color: rgb(43,43,43);
+  background-color: rgb(0,0,0);
   background-clip: padding-box;
   border-radius: 5px;
-  border: 1px solid rgb(75,75,75);
+  border: 1px solid rgb(64,64,64);
 }
 
 .topContainer {

@@ -22,8 +22,8 @@
 }
 
 #downloadsFooter {
-  background: rgb(75,75,75);
-  border-top: 1px solid rgb(75,75,75);
+  background: rgb(0,0,0);
+  border-top: 1px solid rgb(64,64,64);
 }
 
 #downloadsHistory {
@@ -33,7 +33,7 @@
 }
 
 #downloadsPanel[keyfocus] > #downloadsFooter > #downloadsHistory:focus {
-  outline: 1px rgb(75,75,75) dotted;
+  outline: 1px rgb(64,64,64) dotted;
   outline-offset: -1px;
 }
 
@@ -58,7 +58,7 @@ richlistitem[type="download"] {
 }
 
 #downloadsPanel[keyfocus] > #downloadsFooter > #downloadsSummary:focus {
-  outline: 1px rgb(75,75,75) dotted;
+  outline: 1px rgb(64,64,64) dotted;
   outline-offset: -5px;
 }
 
@@ -72,8 +72,8 @@ richlistitem[type="download"] {
 
 richlistitem[type="download"] {
   margin: 0;
-  border-bottom: 1px solid rgb(75,75,75);
-  background: rgb(50,50,50);
+  border-bottom: 1px solid rgb(64,64,64);
+  background: rgb(0,0,0);
   padding: 8px;
 }
 
@@ -151,14 +151,14 @@ richlistitem[type="download"]:first-child {
 }
 
 #downloadsPanel[keyfocus] .downloadButton:focus > .button-box {
-  border: 1px dotted rgb(75,75,75);
+  border: 1px dotted rgb(64,64,64);
 }
 
 /*** Highlighted list items ***/
 
 #downloadsPanel:not([keyfocus]) > #downloadsListBox > richlistitem[type="download"][state="1"][exists]:hover {
   color: #fff;
-  background-color: rgb(75,75,75);
+  background-color: rgb(0,0,0);
 }
 
 /*** Button icons ***/

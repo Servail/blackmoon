@@ -7,22 +7,22 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #downloadManager {
-  background-color: rgb(43,43,43);
+  background-color: rgb(0,0,0);
 }
 
 /* Download View */
 #downloadView {
   -moz-appearance: none;
   margin: 0;
-  border-bottom: 1px solid rgb(75,75,75);
-  background-color: rgb(43,43,43);
+  border-bottom: 1px solid rgb(64,64,64);
+  background-color: rgb(0,0,0);
 }
 
 /* Download View Items */
 richlistitem[type="download"] {
   padding: 4px 8px 4px 4px;
   min-height: 46px;
-  border-bottom: 1px solid rgb(75,75,75);
+  border-bottom: 1px solid rgb(64,64,64);
 }
 
 richlistitem[type="download"][selected="true"] {
@@ -118,7 +118,7 @@ richlistitem[type="download"] .dateTime {
 }
 
 #downloadManager {
-  background: rgb(43,43,43);
+  background: rgb(0,0,0);
 }
 
 windowdragbox {
@@ -134,7 +134,7 @@ windowdragbox {
 #searchbox {
   margin-inline-end: 0;
   margin-bottom: 0;
-  background-color: rgb(50,50,50);
+  background-color: rgb(0,0,0);
   border-radius: 5px;
-  border: 1px solid rgb(75,75,75);
+  border: 1px solid rgb(64,64,64);
 }

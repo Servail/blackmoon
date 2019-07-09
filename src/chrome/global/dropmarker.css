@@ -19,7 +19,7 @@ dropmarker > image {
 }
 
 dropmarker:hover:active:not([disabled="true"]) {
-  background-color: rgb(110,110,110);
+  background-color: rgb(1,1,1);
   padding-top: 2px;
   padding-bottom: 0px;
   padding-inline-start: 2px;

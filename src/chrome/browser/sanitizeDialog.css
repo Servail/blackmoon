@@ -23,7 +23,7 @@
 /* Places tree */
 #placesTreechildren::-moz-tree-row(selected),
 #placesTreechildren::-moz-tree-row(grippyRow) {
-  background: #999;
+  background: #000;
 }
 
 #placesTreechildren::-moz-tree-cell-text(selected) {

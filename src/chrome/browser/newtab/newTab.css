@@ -18,8 +18,8 @@
 #newtab-undo-container {
   padding: 4px 3px;
   border: 1px solid;
-  border-color: rgb(75,75,75);
-  background-color: rgb(50,50,50);
+  border-color: rgb(64,64,64);
+  background-color: rgb(0,0,0);
   color: #fff;
 }
 
@@ -41,11 +41,11 @@
 }
 
 .newtab-undo-button:hover {
-  color: rgb(219,219,219);
+  color: rgb(255,255,255);
 }
 
 .newtab-undo-button:-moz-focusring {
-  outline: 1px dotted rgb(75,75,75);
+  outline: 1px dotted rgb(64,64,64);
 }
 
 #newtab-undo-close-button {
@@ -100,13 +100,13 @@
 /* CELLS */
 .newtab-cell {
   margin-inline-end: 20px;
-  background-color: rgb(50,50,50);
-  border: 1px solid rgb(75,75,75);
+  background-color: rgb(0,0,0);
+  border: 1px solid rgb(64,64,64);
   transition: border-color 100ms ease-out;
 }
 
 .newtab-cell:empty {
-  border: 1px dashed rgb(75,75,75);
+  border: 1px dashed rgb(64,64,64);
 }
 
 .newtab-cell:last-child {
@@ -114,7 +114,7 @@
 }
 
 .newtab-cell:hover:not(:empty) {
-  border-color: rgb(62,62,62);
+  border-color: rgb(64,64,64);
 }
 
 /* SITES */
@@ -130,7 +130,7 @@
 
 .newtab-site[dragged] {
   transition-property: box-shadow, background-color;
-  background-color: rgb(75,75,75);
+  background-color: rgb(0,0,0);
   box-shadow: 0 18px 24px rgba(255,255,255,.5);
 }
 
@@ -146,7 +146,7 @@
 /* TITLES */
 .newtab-title {
   padding: 0 8px;
-  background-color: rgb(50,50,50);
+  background-color: rgb(0,0,0);
   color: #fff;
   line-height: 24px;
 }
@@ -253,9 +253,9 @@
   -moz-box-flex: 1;
   color: #fff;
   padding: 6px 8px;
-  background-color: rgb(50, 50, 50);
+  background-color: rgb(0, 0, 0);
   border: 1px solid;
-  border-color: rgb(75, 75, 75);
+  border-color: rgb(64, 64, 64);
   border-radius: 5px 0 0 5px;
   box-shadow: none;
 }
@@ -266,16 +266,16 @@
 
 #searchText:focus,
 #searchText[autofocus] {
-  border-color: rgb(110, 110, 110);
+  border-color: rgb(128, 128, 128);
 }
 
 #searchSubmit {
   margin-inline-start: -1px;
   padding: 0 9px;
   color: #fff;
-  background-color: rgb(60, 60, 60);
+  background-color: rgb(0, 0, 0);
   border: 1px solid;
-  border-color: rgb(75, 75, 75);
+  border-color: rgb(64, 64, 64);
   border-radius: 0 5px 5px 0;
   cursor: pointer;
   transition-property: background-color, border-color, box-shadow;
@@ -290,11 +290,11 @@
 #searchText:focus + #searchSubmit,
 #searchText + #searchSubmit:hover,
 #searchText[autofocus] + #searchSubmit {
-  border-color: rgb(110, 110, 110);
-  background-color: rgb(75, 75, 75);
+  border-color: rgb(128, 128, 128);
+  background-color: rgb(0, 0, 0);
 }
 
 #searchText + #searchSubmit:hover:active {
-  border-color: rgb(75, 75, 75);
-  background-color: rgb(23, 23, 23);
+  border-color: rgb(64, 64, 64);
+  background-color: rgb(0, 0, 0);
 }

@@ -15,7 +15,7 @@ body.sepia .narrating {
 }
 
 body.dark .narrating {
-  background-color: #242424;
+  background-color: #000000;
 }
 
 .narrate-word-highlight {
@@ -62,7 +62,7 @@ body.dark .narrate-word-highlight {
 }
 
 .narrate-dropdown > .dropdown-popup button:hover:not(:disabled) {
-  background-color: #eaeaea;
+  background-color: #000000;
 }
 
 .narrate-row {
@@ -158,7 +158,7 @@ body.dark .narrate-word-highlight {
 }
 
 .narrate-rate-input::-moz-range-thumb {
-  background-color: #808080;
+  background-color: #000000;
   height: 16px;
   width: 16px;
   border-radius: 8px;
@@ -208,7 +208,7 @@ body.dark .narrate-word-highlight {
 }
 
 .voiceselect > .options:not(.hovering) > button.option:focus {
-  background-color: #eaeaea;
+  background-color: #000000;
 }
 
 .voiceselect > .options:not(.hovering) > button.option:hover:not(:focus) {

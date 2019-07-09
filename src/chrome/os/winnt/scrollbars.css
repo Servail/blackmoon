@@ -71,12 +71,12 @@ slider[orient="vertical"] {
 /* ::::: thumb (horizontal) ::::: */
 
 thumb {
-  min-height: 18px;
-  border-radius: 3px;
+  min-height: 16px;
+  border-radius: 0px;
 }
 
 thumb[orient="horizontal"] {
-  min-width: 18px;
+  min-width: 16px;
 }
 
 /* ::::: scrollbar button ::::: */
@@ -200,12 +200,12 @@ scrollbar[orient="vertical"] > scrollbarbutton[type="decrement"][disabled="true"
   /* ::::: thumb (horizontal) ::::: */
 
   html|div thumb {
-    min-height: 18px;
-    border-radius: 3px;
+    min-height: 16px;
+    border-radius: 0px;
   }
 
   html|div thumb[orient="horizontal"] {
-    min-width: 18px;
+    min-width: 16px;
   }
 
   /* ::::: scrollbar button ::::: */

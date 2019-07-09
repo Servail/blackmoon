@@ -15,11 +15,11 @@ menulist {
   -moz-appearance: none;
   margin: 2px 4px;
   border: 1px solid;
-  -moz-border-top-colors: rgb(75,75,75);
-  -moz-border-right-colors: rgb(75,75,75);
-  -moz-border-bottom-colors: rgb(75,75,75);
-  -moz-border-left-colors: rgb(75,75,75);
-  background-color: rgb(50,50,50);
+  -moz-border-top-colors: rgb(64,64,64);
+  -moz-border-right-colors: rgb(64,64,64);
+  -moz-border-bottom-colors: rgb(64,64,64);
+  -moz-border-left-colors: rgb(64,64,64);
+  background-color: rgb(0,0,0);
   color: #fff;
   text-shadow: none;
 }
@@ -51,11 +51,11 @@ menulist {
 }
 
 menulist:hover:not(:active):not([disabled=true]) {
-  background-color: rgb(75,75,75);
+  background-color: rgb(64,64,64);
 }
 
 menulist:hover:active:not([disabled=true]) {
-  background-color: rgb(110,110,110);
+  background-color: rgb(1,1,1);
 }
 
 /* ..... dropmarker ..... */
@@ -80,7 +80,7 @@ menulist:hover:active > .menulist-dropmarker {
 /* ..... focused state ..... */
 
 menulist:focus:not([open="true"]) > .menulist-label-box {
-  background-color: rgb(110,110,110);
+  background-color: rgb(1,1,1);
   color: #fff;
 }
 
@@ -91,7 +91,7 @@ menulist:-moz-focusring:not([open="true"]) > .menulist-label-box {
 /* ..... disabled state ..... */
 
 menulist[disabled="true"] {
-  background-color: rgb(62,62,62);
+  background-color: rgb(0,0,0);
   color: GrayText;
 }
 

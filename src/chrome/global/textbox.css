@@ -19,10 +19,10 @@ textbox {
   -moz-appearance: none;
   cursor: text;
   margin: 2px 4px;
-  border: 1px solid rgb(50,50,50);
+  border: 1px solid rgb(64,64,64);
   padding: 2px 2px 3px;
   padding-inline-start: 4px;
-  background-color: rgb(75,75,75);
+  background-color: rgb(0,0,0);
   color: #fff;
 }
 
@@ -43,7 +43,7 @@ html|*.textbox-textarea {
 /* ..... readonly state ..... */
 
 textbox[readonly="true"] {
-  background-color: rgb(50,50,50);
+  background-color: rgb(0,0,0);
   color: rgb(219,219,219);
 }
 
@@ -51,7 +51,7 @@ textbox[readonly="true"] {
 
 textbox[disabled="true"] {
   cursor: default;
-  background-color: rgb(50,50,50);
+  background-color: rgb(0,0,0);
   color: rgb(200,200,200);
 }
 

@@ -82,7 +82,7 @@ findbar[hidden] {
 .findbar-find-previous,
 .findbar-find-next {
   -moz-appearance: none;
-  background: rgb(50,50,50);
+  background: rgb(0,0,0);
   border: 1px solid rgb(75,75,75);
   list-style-image: url("chrome://global/skin/icons/find-arrows.png");
   padding: 2px 6px;
@@ -93,7 +93,7 @@ findbar[hidden] {
 
 .findbar-find-previous:not([disabled]):active,
 .findbar-find-next:not([disabled]):active {
-  background: rgb(110,110,110);
+  background: rgb(1,1,1);
 }
 
 .findbar-find-previous {

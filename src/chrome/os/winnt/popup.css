@@ -6,7 +6,7 @@
 
 /* ::::: Variables ::::: */
 .panel-arrowcontent {
-  --panel-arrowcontent-background: rgb(50,50,50);
+  --panel-arrowcontent-background: rgb(0,0,0);
   --panel-arrowcontent-color: #fff;
   --panel-arrowcontent-border: 1px solid rgb(75,75,75);
 }
@@ -22,7 +22,7 @@ panel {
   -moz-border-bottom-colors: rgb(23,23,23);
   padding: 0px;
   min-width: 1px;
-  background: rgb(43,43,43);
+  background: rgb(0,0,0);
   color: #fff;
 }
 
@@ -115,10 +115,10 @@ panel[type="arrow"][side="right"] {
 tooltip {
   -moz-appearance: none;
   margin-top: 21px;
-  border: 1px solid rgb(75,75,75);
+  border: 1px solid rgb(64,64,64);
   padding: 2px 3px;
   max-width: 40em;
-  background-color: rgb(110,110,110);
+  background-color: rgb(1,1,1);
   color: #fff;
   font: message-box;
 }
@@ -135,12 +135,12 @@ tooltip[titletip="true"] {
 menulist > menupopup {
   -moz-appearance: none;
   border-width: 1px;
-  -moz-border-top-colors: rgb(75,75,75);
-  -moz-border-right-colors: rgb(75,75,75);
-  -moz-border-bottom-colors: rgb(75,75,75);
-  -moz-border-left-colors: rgb(75,75,75);
+  -moz-border-top-colors: rgb(64,64,64);
+  -moz-border-right-colors: rgb(64,64,64);
+  -moz-border-bottom-colors: rgb(64,64,64);
+  -moz-border-left-colors: rgb(64,64,64);
   padding: 0px;
   min-width: 0px;
-  background-color: rgb(50,50,50);
+  background-color: rgb(0,0,0);
 }
 

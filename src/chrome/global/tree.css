@@ -12,8 +12,8 @@
 
 tree {
   margin: 0px 4px;
-  border: 1px solid rgb(75,75,75);
-  background-color: rgb(50,50,50);
+  border: 1px solid rgb(64,64,64);
+  background-color: rgb(0,0,0);
   color: #FFFFFF;
   -moz-appearance: none;
 }
@@ -43,11 +43,11 @@ treechildren::-moz-tree-cell-text {
 }
 
 treechildren::-moz-tree-row(selected) {
-  background-color: rgb(110,110,110);
+  background-color: rgb(1,1,1);
 }
 
 treechildren::-moz-tree-row(selected, focus) {
-  background-color: rgb(120,120,120);
+  background-color: rgb(2,2,2);
 }
 
 treechildren::-moz-tree-row(current, focus) {
@@ -91,14 +91,14 @@ tree[seltype="text"] > treechildren::-moz-tree-cell-text {
 }
 
 tree[seltype="cell"] > treechildren::-moz-tree-cell(active, selected) {
-  background-color: rgb(110,110,110);
+  background-color: rgb(1,1,1);
 }
 tree[seltype="cell"] > treechildren::-moz-tree-cell-text(active, selected) {
   color: #fff;
 }
 
 tree[seltype="text"] > treechildren::-moz-tree-cell-text(active, selected) {
-  background-color: rgb(110,110,110);
+  background-color: rgb(1,1,1);
   color: #fff;
 }
 
@@ -107,11 +107,11 @@ treechildren::-moz-tree-cell-text(selected, focus) {
 }
 
 tree[seltype="cell"] > treechildren::-moz-tree-cell(active, selected, focus) {
-  background-color: rgb(120,120,120);
+  background-color: rgb(2,2,2);
 }
 
 tree[seltype="text"] > treechildren::-moz-tree-cell-text(active, selected, focus) {
-  background-color: rgb(120,120,120);
+  background-color: rgb(2,2,2);
 }
 
 tree[seltype="cell"] > treechildren::-moz-tree-cell-text(active, selected, focus) {
@@ -123,19 +123,19 @@ tree[seltype="text"] > treechildren::-moz-tree-cell-text(active, selected, focus
 }
 
 tree[seltype="cell"] > treechildren::-moz-tree-cell(active, current, focus) {
-  border: 1px dotted rgb(75,75,75);
+  border: 1px dotted rgb(64,64,64);
 }
 
 tree[seltype="text"] > treechildren::-moz-tree-cell-text(active, current, focus) {
-  border: 1px dotted rgb(75,75,75);
+  border: 1px dotted rgb(64,64,64);
 }
 
 tree[seltype="cell"] > treechildren::-moz-tree-cell(active, selected, current, focus) {
-  border: 1px dotted rgb(80,80,80);
+  border: 1px dotted rgb(64,64,64);
 }
 
 tree[seltype="text"] > treechildren::-moz-tree-cell-text(active, selected, current, focus) {
-  border: 1px dotted rgb(80,80,80);
+  border: 1px dotted rgb(64,64,64);
 }
 
 /* ::::: lines connecting cells ::::: */
@@ -143,12 +143,12 @@ tree[seltype="text"] > treechildren::-moz-tree-cell-text(active, selected, curre
 tree[seltype="cell"] > treechildren::-moz-tree-line,
 tree[seltype="text"] > treechildren::-moz-tree-line,
 treechildren::-moz-tree-line {
-  border: 1px dotted rgb(75,75,75);
+  border: 1px dotted rgb(64,64,64);
 }
 
 tree[seltype="cell"] > treechildren::-moz-tree-line(active, selected, focus),
 treechildren::-moz-tree-line(selected, focus) {
-  border: 1px dotted rgb(80,80,80);
+  border: 1px dotted rgb(64,64,64);
 }
 
 /* ::::: tree separator ::::: */
@@ -161,7 +161,7 @@ treechildren::-moz-tree-separator {
 /* ::::: drop feedback ::::: */
 
 treechildren::-moz-tree-row(dropOn) {
-  background-color: rgb(110,110,110);
+  background-color: rgb(1,1,1);
 }
 
 tree[seltype="cell"] > treechildren::-moz-tree-cell-text(primary, dropOn),
@@ -171,7 +171,7 @@ treechildren::-moz-tree-cell-text(primary, dropOn) {
 }
 
 treechildren::-moz-tree-drop-feedback {
-  background-color: rgb(110,110,110);
+  background-color: rgb(1,1,1);
   width: 50px;
   height: 2px;
   margin-inline-start: 5px;
@@ -182,7 +182,7 @@ treechildren::-moz-tree-drop-feedback {
 treechildren::-moz-tree-progressmeter {
   margin: 2px 4px;
   padding: 1px;
-  border: 1px solid rgb(75,75,75);
+  border: 1px solid rgb(64,64,64);
   color: ThreeDShadow;
 }
 
@@ -201,8 +201,8 @@ treecolpicker {
   -moz-appearance: none;
   -moz-box-align: center;
   -moz-box-pack: center;
-  border: 1px solid rgb(75,75,75);
-  background-color: rgb(60,60,60);
+  border: 1px solid rgb(64,64,64);
+  background-color: rgb(0,0,0);
   color: #fff;
   padding: 0px 4px;
 }
@@ -225,7 +225,7 @@ treecol[hideheader="true"] {
 
 treecol:hover:active,
 treecolpicker:hover:active {
-  background-color: rgb(110,110,110);
+  background-color: rgb(1,1,1);
 }
 
 /* ::::: column drag and drop styles ::::: */

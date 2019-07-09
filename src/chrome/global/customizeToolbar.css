@@ -15,9 +15,9 @@ dialog {
 #palette-box {
   -moz-appearance: none;
   margin: 0 0 10px;
-  background-color: rgb(50,50,50);
+  background-color: rgb(0,0,0);
   color: #fff;
-  border: 1px solid rgb(75,75,75);
+  border: 1px solid rgb(64,64,64);
 }
 
 #palette-box > toolbarpaletteitem {

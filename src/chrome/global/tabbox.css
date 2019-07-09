@@ -13,7 +13,7 @@
 .tabs-left,
 .tabs-right {
   border-bottom: 1px solid;
-  -moz-border-bottom-colors: rgb(75,75,75);
+  -moz-border-bottom-colors: rgb(64,64,64);
 }
 
 /* ::::: tabpanels ::::: */
@@ -23,11 +23,11 @@ tabpanels {
   border-right: 1px solid;
   border-bottom: 1px solid;
   border-left: 1px solid;
-  -moz-border-right-colors: rgb(75,75,75);
-  -moz-border-bottom-colors: rgb(75,75,75);
-  -moz-border-left-colors: rgb(75,75,75);
+  -moz-border-right-colors: rgb(64,64,64);
+  -moz-border-bottom-colors: rgb(64,64,64);
+  -moz-border-left-colors: rgb(64,64,64);
   padding: 8px;
-  background-color: rgb(43,43,43);
+  background-color: rgb(0,0,0);
   color: #fff;
 }
 
@@ -39,14 +39,14 @@ tab {
   border-top: 1px solid;
   border-right: 1px solid;
   border-left: 1px solid;
-  border-bottom: 1px solid rgb(75,75,75);
-  -moz-border-top-colors: rgb(75,75,75);
-  -moz-border-right-colors: rgb(75,75,75);
-  -moz-border-left-colors: rgb(75,75,75);
+  border-bottom: 1px solid rgb(64,64,64);
+  -moz-border-top-colors: rgb(64,64,64);
+  -moz-border-right-colors: rgb(64,64,64);
+  -moz-border-left-colors: rgb(64,64,64);
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
   padding: 1px 4px 2px 4px;
-  background-color: rgb(23,23,23);
+  background-color: rgb(0,0,0);
   color: #fff;
 }
 
@@ -61,7 +61,7 @@ tab:-moz-locale-dir(rtl) {
 
 tab[selected="true"] {
   margin-top: 0;
-  background-color: rgb(43,43,43);
+  background-color: rgb(0,0,0);
   border-bottom-color: transparent;
   padding: 1px 6px 4px 6px;
 }
@@ -98,8 +98,8 @@ tab:first-of-type[selected="true"] {
   margin-bottom: 2px;
   border-top: 1px solid;
   border-bottom: 1px solid;
-  -moz-border-top-colors: rgb(75,75,75);
-  -moz-border-bottom-colors: rgb(75,75,75);
+  -moz-border-top-colors: rgb(64,64,64);
+  -moz-border-bottom-colors: rgb(64,64,64);
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   border-bottom-right-radius: 2px;
@@ -109,7 +109,7 @@ tab:first-of-type[selected="true"] {
 
 .tab-bottom[selected="true"] {
   margin-bottom: 0;
-  -moz-border-top-colors: rgb(110,110,110);
+  -moz-border-top-colors: rgb(128,128,128);
   padding: 4px 6px 1px 6px;
 }
 
@@ -127,7 +127,7 @@ tab:first-of-type[selected="true"] {
 
 .tabs-bottom > .tabs-left,
 .tabs-bottom > .tabs-right {
-  border-top: 1px solid rgb(75,75,75);
+  border-top: 1px solid rgb(64,64,64);
   border-bottom: none;
 }
 

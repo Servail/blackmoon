@@ -20,7 +20,7 @@ button {
   -moz-border-right-colors: rgb(75,75,75);
   -moz-border-bottom-colors: rgb(75,75,75);
   -moz-border-left-colors: rgb(75,75,75);
-  background-color: rgb(50,50,50);
+  background-color: rgb(0,0,0);
   color: #fff;
   text-shadow: none;
 }
@@ -69,12 +69,12 @@ button[checked="true"] {
   -moz-border-right-colors: rgb(75,75,75);
   -moz-border-bottom-colors: rgb(75,75,75);
   -moz-border-left-colors: rgb(75,75,75);
-  background-color: rgb(23,23,23);
+  background-color: rgb(0,0,0);
   color: #fff;
 }
 
 button:hover:not(:active):not([disabled=true]) {
-  background-color: rgb(75,75,75);
+  background-color: rgb(0,0,0);
 }
 
 button:hover:active > .button-box:-moz-system-metric(windows-classic),
@@ -93,7 +93,7 @@ button[disabled="true"] {
   -moz-border-right-colors: rgb(75,75,75) !important;
   -moz-border-bottom-colors: rgb(75,75,75) !important;
   -moz-border-left-colors: rgb(75,75,75) !important;
-  background-color: rgb(62,62,62);
+  background-color: rgb(0,0,0);
   color: GrayText;
 }
 

@@ -8,7 +8,7 @@
 .panel-arrowcontent {
   --panel-arrowcontent-background: rgb(0,0,0);
   --panel-arrowcontent-color: #fff;
-  --panel-arrowcontent-border: 1px solid rgb(75,75,75);
+  --panel-arrowcontent-border: 1px solid rgb(64,64,64);
 }
 
 /* ::::: menupopup ::::: */
@@ -16,10 +16,10 @@
 menupopup,
 panel {
   border: 1px solid transparent;
-  -moz-border-top-colors   : rgb(75,75,75);
-  -moz-border-left-colors  : rgb(75,75,75);
-  -moz-border-right-colors : rgb(23,23,23);
-  -moz-border-bottom-colors: rgb(23,23,23);
+  -moz-border-top-colors   : rgb(64,64,64);
+  -moz-border-left-colors  : rgb(64,64,64);
+  -moz-border-right-colors : rgb(32,32,32);
+  -moz-border-bottom-colors: rgb(32,32,32);
   padding: 0px;
   min-width: 1px;
   background: rgb(0,0,0);

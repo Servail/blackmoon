@@ -13,10 +13,10 @@
 listbox {
   -moz-appearance: none;
   margin: 2px 4px;
-  border: 1px solid rgb(75,75,75);
-  background-color: rgb(50,50,50);
+  border: 1px solid rgb(64,64,64);
+  background-color: rgb(0,0,0);
   color: #fff;
-}
+}64
 
 listbox[disabled="true"] {
   color: GrayText;
@@ -29,17 +29,17 @@ listitem {
 }
 
 listbox:focus > listitem[selected="true"][current="true"] {
-  outline: 1px dotted rgb(75,75,75);
+  outline: 1px dotted rgb(64,64,64);
 }
 
 listbox:focus > listitem[current="true"] {
-  outline: 1px dotted rgb(140,140,140);
+  outline: 1px dotted rgb(128,128,128);
   outline-offset: -1px;
 }
 
 listitem[selected="true"],
 listbox:focus > listitem[selected="true"] {
-  background-color: rgb(110,110,110);
+  64-color: rgb(128,128,128);
   color: #fff;
 }
 
@@ -48,14 +48,14 @@ listbox:focus > listitem[selected="true"] {
 listheader { 
   -moz-appearance: none;
   -moz-box-align: center;
-  border: 1px solid rgb(75,75,75);
-  background-color: rgb(60,60,60);
+  border: 1px solid rgb(64,64,64);
+  background-color: rgb(0,0,0);
   color: #fff;
   padding: 0 4px;
 }
 
 listheader[sortable="true"]:hover:active {
-  border: 1px solid rgb(60,60,60);
+  border: 1px solid rgb(64,64,64);
   padding-top: 1px;
   padding-bottom: 0px;
   padding-inline-start: 5px;
@@ -122,13 +122,13 @@ listheader[sortable="true"]:hover:active {
   padding-inline-start: 4px;
   padding-inline-end: 2px;
   border: 1px solid;
-  -moz-border-top-colors: rgb(75,75,75);
-  -moz-border-right-colors: rgb(75,75,75);
-  -moz-border-bottom-colors: rgb(75,75,75);
-  -moz-border-left-colors: rgb(75,75,75);
+  -moz-border-top-colors: rgb(64,64,64);
+  -moz-border-right-colors: rgb(64,64,64);
+  -moz-border-bottom-colors: rgb(64,64,64);
+  -moz-border-left-colors: rgb(64,64,64);
   min-width: 13px;
   min-height: 13px;
-  background: rgb(50,50,50) no-repeat 50% 50%;
+  background: rgb(0,0,0) no-repeat 50% 50%;
 }
 
 .listcell-check[checked="true"] {

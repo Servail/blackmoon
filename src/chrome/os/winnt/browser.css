@@ -1,5 +1,5 @@
 :root {
-  --appmenu-background: rgba(90,90,90,.85);
+  --appmenu-background: rgba(0,0,0,.85);
   --appmenu-border-color: rgba(0,0,0,.15);
   --appmenu-border-radius: 4px;
 }
@@ -27,29 +27,29 @@
 }
 
 #main-window[privatebrowsingmode=temporary] #appmenu-button {
-  --appmenu-background: rgba(235,235,235,.75);
+  --appmenu-background: rgba(2,2,2,.75);
   color: #000;
 }
 
 #appmenu-button:hover:not(:active):not([open]) {
-  --appmenu-background: rgba(110,110,110,.75);
+  --appmenu-background: rgba(1,1,1,.75);
   --appmenu-border-color: rgba(0,0,0,.20);
 }
 
 #main-window[privatebrowsingmode=temporary] #appmenu-button:hover:not(:active):not([open]) {
-  --appmenu-background: rgba(240,240,240,.85);
+  --appmenu-background: rgba(2,2,2,.85);
 }
 
 #appmenu-button:hover:active,
 #appmenu-button[open] {
   border-radius: 0;
-  --appmenu-background: rgba(75,75,75,.4);
+  --appmenu-background: rgba(0,0,0,.4);
   --appmenu-border-color: rgba(0,0,0,.25);
 }
 
 #main-window[privatebrowsingmode=temporary] #appmenu-button:hover:active,
 #main-window[privatebrowsingmode=temporary] #appmenu-button[open] {
-  --appmenu-background: rgba(255,255,255,.4);
+  --appmenu-background: rgba(2,2,2,.4);
 }
 
 #appmenu-button > .button-box {
@@ -177,12 +177,12 @@ toolbarbutton.bookmark-item[open="true"] {
 @media all and (-moz-windows-default-theme) {
   #navigator-toolbox > toolbar:not(:-moz-lwtheme),
   #addon-bar:not(:-moz-lwtheme) {
-    background-color: rgb(43,43,43);
+    background-color: rgb(0,0,0);
   }
 
   #sidebar-splitter {
     border: 0;
-    border-inline-end: 1px solid rgb(75,75,75);
+    border-inline-end: 1px solid rgb(64,64,64);
     min-width: 0;
     width: 3px;
     background-color: transparent;
@@ -231,11 +231,11 @@ toolbarbutton.bookmark-item[open="true"] {
     }
     
     .titlebar-button:hover {
-      background-color: hsla(0, 0%, 100%, .17);
+      background-color: hsla(0, 0%, 0%, .17);
     }
 
     .titlebar-button:hover:active {
-      background-color: hsla(0, 0%, 100%, .27);
+      background-color: hsla(0, 0%, 0%, .27);
       transition: none;
     }
 
@@ -244,11 +244,11 @@ toolbarbutton.bookmark-item[open="true"] {
     }
 
     #titlebar-close:hover {
-      background-color: hsla(0, 86%, 49%, 1);
+      background-color: hsla(0, 0%, 0%, 1);
     }
 
     #titlebar-close:hover:active {
-      background-color: hsla(0, 60%, 39%, 1);
+      background-color: hsla(0, 0%, 0%, 1);
       transition: none;
     }
 
@@ -313,11 +313,11 @@ toolbarbutton.bookmark-item[open="true"] {
 
     /* dark persona */
     .titlebar-button:-moz-lwtheme-brighttext:hover {
-      background-color: hsla(0, 0%, 100%, .27);
+      background-color: hsla(0, 0%, 0%, .27);
     }
 
     .titlebar-button:-moz-lwtheme-brighttext:hover:active {
-      background-color: hsla(0, 0%, 100%, .37);
+      background-color: hsla(0, 0%, 0%, .37);
       transition: none;
     }
 
@@ -440,7 +440,7 @@ toolbarbutton.bookmark-item[open="true"] {
   
   #main-window[sizemode=fullscreen]:not(:-moz-lwtheme) {
     -moz-appearance: none;
-    background-color: rgb(23,23,23);
+    background-color: rgb(0,0,0);
   }
   
   #main-menubar > menu:not(:-moz-lwtheme) {
@@ -466,7 +466,7 @@ toolbarbutton.bookmark-item[open="true"] {
     #main-window[sizemode=normal] #browser-border-start,
     #main-window[sizemode=normal] #browser-border-end {
       display: -moz-box;
-      background-color: hsla(0,0%,12%,0.25);
+      background-color: hsla(0,0%,0%,0.25);
       width: 1px;
     }
     #main-window[sizemode=normal] #browser-bottombox {
@@ -496,7 +496,7 @@ toolbarbutton.bookmark-item[open="true"] {
   #main-window[sizemode=normal][tabsontop=true] #nav-bar:not(:-moz-lwtheme),
   #main-window[sizemode=normal][tabsontop=true] > #nav-bar[collapsed=true]:not([customizing]) + toolbar:not(:-moz-lwtheme),
   #main-window[sizemode=normal][tabsontop=true] > #nav-bar[collapsed=true]:not([customizing]) + #customToolbars + #PersonalToolbar:not(:-moz-lwtheme) {
-    border-top: 1px solid rgba(75,75,75,1);
+    border-top: 1px solid rgba(64,64,64,1);
     background-clip: padding-box;
   }
   #main-window[sizemode=normal]:not([disablechrome]) #TabsToolbar[tabsontop=true]:not(:-moz-lwtheme) {
@@ -531,7 +531,7 @@ toolbarbutton.bookmark-item[open="true"] {
   }
 
   #browser-bottombox:not(:-moz-lwtheme) {
-    background-color: rgb(38,38,38);
+    background-color: rgb(0,0,0);
     background-clip: padding-box;
   }
 

@@ -40,13 +40,13 @@ radio {
 /* ..... focused state ..... */
 
 radio[focused="true"] > .radio-label-box {
-  border: 1px dotted rgb(75,75,75);
+  border: 1px dotted rgb(64,64,64);
 }
 
 /* ..... disabled state ..... */
 
 radio[disabled="true"] > .radio-check-box1 {
-  background-color: rgb(62,62,62);
+  background-color: rgb(0,0,0);
 }
 
 radio[disabled="true"] {
@@ -58,21 +58,21 @@ radio[disabled="true"] {
 .radio-check-box1 {
   -moz-appearance: none;
   margin: 1px 0px;
-  border-top: 1px solid rgb(75,75,75);
-  border-right: 1px solid rgb(75,75,75);
-  border-bottom: 1px solid rgb(75,75,75);
-  border-left: 1px solid rgb(75,75,75);
+  border-top: 1px solid rgb(64,64,64);
+  border-right: 1px solid rgb(64,64,64);
+  border-bottom: 1px solid rgb(64,64,64);
+  border-left: 1px solid rgb(64,64,64);
   border-radius: 50%;
   width: 12px;
   height: 12px;
-  background-color: rgb(50,50,50);
+  background-color: rgb(0,0,0);
 }
 
 .radio-check-box2 {
-  border-top: 1px solid rgb(75,75,75);
-  border-right: 1px solid rgb(75,75,75);
-  border-bottom: 1px solid rgb(75,75,75);
-  border-left: 1px solid rgb(75,75,75);
+  border-top: 1px solid rgb(64,64,64);
+  border-right: 1px solid rgb(64,64,64);
+  border-bottom: 1px solid rgb(64,64,64);
+  border-left: 1px solid rgb(64,64,64);
   border-radius: 50%;
   padding: 2px;
   width: 4px;
@@ -81,7 +81,7 @@ radio[disabled="true"] {
 }
 
 radio:hover:active > .radio-check-box1 {
-  background-color: rgb(110,110,110);
+  background-color: rgb(1,1,1);
 }
 
 /* ..... selected state ..... */

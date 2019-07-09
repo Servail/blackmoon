@@ -7,7 +7,7 @@
 
 .controlBar {
   height: 28px;
-  background-color: rgba(35,31,32,.74);
+  background-color: rgba(0,0,0,.74);
 }
 
 .playButton,
@@ -130,7 +130,7 @@
   margin-inline-end: 10px;
   border: none;
   color: rgba(255,255,255,.5);
-  background-color: rgba(35,31,32,.74);
+  background-color: rgba(0,0,0,.74);
   white-space: nowrap;
 }
 
@@ -318,7 +318,7 @@ html|table {
     -1px 1px 0 #000,
     1px 1px 0 #000;
   min-width: 100%;
-  background: rgba(68,68,68,.7);
+  background: rgba(0,0,0,.7);
   table-layout: fixed;
   border-collapse: collapse;
   position: absolute;

@@ -10,7 +10,7 @@
 
 #downloadsRichListBox > richlistitem.download {
   height: 6em;
-  border-bottom: 1px solid rgb(50,50,50);
+  border-bottom: 1px solid rgb(64,64,64);
 }
 
 .downloadTypeIcon {
@@ -81,15 +81,15 @@
 
 #downloadsRichListBox > richlistitem.download[selected] {
   color: #fff;
-  background-color: rgb(110,110,110);
+  background-color: rgb(0,0,0);
 }
 
 /* Fixes for "Downloads Window" extension */
 
 #downloadsWindow > #downloadsRichListBox > richlistitem.download:not([selected="true"]):nth-child(odd) {
-  background-color: rgb(75, 75, 75) !important;
+  background-color: rgb(0, 0, 0) !important;
 }
 
 #downloadsWindow > #downloadsRichListBox {
-  -moz-border-bottom-colors: rgb(110, 110, 110) transparent !important;
+  -moz-border-bottom-colors: rgb(128, 128, 128) transparent !important;
 }

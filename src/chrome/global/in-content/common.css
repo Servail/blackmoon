@@ -7,18 +7,18 @@
 
 *|*:root {
   --in-content-page-color: #fff;
-  --in-content-page-background: rgb(23,23,23);
-  --in-content-frame-background: rgb(23,23,23);
+  --in-content-page-background: rgb(0,0,0);
+  --in-content-frame-background: rgb(0,0,0);
   --in-content-main-border-color: rgb(50,50,50);
-  --in-content-main-background-color: rgb(43,43,43);
+  --in-content-main-background-color: rgb(0,0,0);
   --in-content-main-background-image: transparent;
   --in-content-text-color: #fff;
   --in-content-selected-text: #fff;
   --in-content-header-border-color: rgb(50,50,50);
-  --in-content-box-background: rgb(50,50,50);
+  --in-content-box-background: rgb(0,0,0);
   --in-content-box-background-odd: #f3f6fa;
-  --in-content-box-background-hover: rgb(75,75,75);
-  --in-content-box-background-active: rgb(23,23,23);
+  --in-content-box-background-hover: rgb(0,0,0);
+  --in-content-box-background-active: rgb(1,1,1);
   --in-content-box-border-color: rgb(75,75,75);
   --in-content-item-hover: rgb(110,110,110);
   --in-content-item-selected: rgb(110,110,110);
@@ -37,11 +37,11 @@
   --in-content-link-color-hover: rgb(219,219,219);
   --in-content-link-color-active: rgb(219,219,219);
   --in-content-link-color-visited: #551a8b;
-  --in-content-primary-button-background: rgb(75,75,75);
+  --in-content-primary-button-background: rgb(0,0,0);
   --in-content-primary-button-background-hover: rgb(110,110,110);
   --in-content-primary-button-background-active: rgb(43,43,43);
   --in-content-table-border-dark-color: rgb(50,50,50);
-  --in-content-table-header-background: rgb(110,110,110);
+  --in-content-table-header-background: rgb(1,1,1);
 }
 
 html|html,
@@ -1166,7 +1166,7 @@ xul|treechildren::-moz-tree-cell-text(selected) {
 
 @-moz-document url-prefix("about:performance") {
   #subprocess-reports td {
-    background-color: rgb(75,75,75) !important;
+    background-color: rgb(0,0,0) !important;
   }
 }
 

@@ -575,7 +575,7 @@ html[dir=rtl] .iq-resizable-se {
   box-shadow: 0px 1px 0px rgba(255,255,255,.5), 0px -1px 0px rgba(0,0,0,1), 0px 0px 9px rgba(0,0,0,.8);
   color: white;
   border: none;
-  background-color: #272727;
+  background-color: #000;
   border-radius: 0.4em;
   padding-inline-start: 5px;
   padding-inline-end: 5px;

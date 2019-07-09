@@ -7,18 +7,18 @@
 @namespace html url("http://www.w3.org/1999/xhtml");
 
 :root {
-  --tab-background: linear-gradient(rgba(23,23,23,1), rgba(23,23,23,1));
-  --tab-border-color: rgb(75,75,75);
+  --tab-background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,1));
+  --tab-border-color: rgb(64,64,64);
   --tab-border-radius: 2px;
   --tab-box-shadow: none;
-  --tab-hover-background: linear-gradient(rgba(80,80,80,.85), rgba(80,80,80,.85));
+  --tab-hover-background: linear-gradient(rgba(0,0,0,.85), rgba(0,0,0,.85));
   --tab-hover-border: var(--tab-border-color);
   --tab-pinned-background: linear-gradient(rgba(255,255,255,1) -8px, rgba(23,23,23,1), rgba(23,23,23,1));
-  --tab-selected-background: linear-gradient(rgba(43,43,43,1), rgba(43,43,43,1));
+  --tab-selected-background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,1));
   --tab-selected-border: var(--tab-border-color);
 
-  --toolbar-border: rgba(75,75,75,1);
-  --toolbar-highlight-top: rgba(43,43,43);
+  --toolbar-border: rgba(64,64,64,1);
+  --toolbar-highlight-top: rgba(32,32,32);
   --toolbar-highlight-bottom: var(--toolbar-highlight-top);
   
   --toolbarbutton-background-color: hsla(210,32%,93%,0);
@@ -38,18 +38,18 @@
 }
 
 :root:-moz-lwtheme-brighttext {
-  --tab-background: linear-gradient(rgba(105,105,105,.4), rgba(105,105,105,.4));
+  --tab-background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4));
   --tab-box-shadow: none;
-  --tab-hover-background: linear-gradient(rgba(110,110,110,.8), rgba(110,110,110,.8));
-  --tab-selected-background: linear-gradient(rgba(5,5,5,.9), rgba(5,5,5,.9));
+  --tab-hover-background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8));
+  --tab-selected-background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.9));
   --toolbar-highlight-top: rgba(5,5,5,0.9);
   --toolbar-highlight-bottom: rgba(5,5,5,0.6);
 }
 
 :root:-moz-lwtheme-darktext {
-  --tab-background: linear-gradient(rgba(235,235,235,.4), rgba(235,235,235,.4));
-  --tab-hover-background: linear-gradient(rgba(240,240,240,.8), rgba(240,240,240,.8));
-  --tab-selected-background: linear-gradient(rgba(250,250,250,.9), rgba(250,250,250,.9));
+  --tab-background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4));
+  --tab-hover-background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8));
+  --tab-selected-background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.9));
   --toolbar-highlight-top: rgba(250,250,250,0.9);
   --toolbar-highlight-bottom: rgba(250,250,250,0.5);
 }
@@ -60,7 +60,7 @@
 }
 
 #main-window {
-  background-color: rgb(23,23,23);
+  background-color: rgb(0,0,0);
 }
 
 #menubar-items {
@@ -83,7 +83,7 @@
   display: -moz-box;
   -moz-box-ordinal-group: 101; 
   height: 1px;
-  background-color: rgba(75,75,75,1);
+  background-color: rgba(0,0,0,1);
 }
 
 #navigator-toolbox[tabsontop=false]::after,
@@ -94,7 +94,7 @@
 #navigator-toolbox > toolbar:not(:-moz-lwtheme) {
   -moz-appearance: none;
   border-style: none;
-  background-color: rgba(43,43,43,1);
+  background-color: rgba(0,0,0,1);
 }
 
 #toolbar-menubar:not(:-moz-lwtheme),
@@ -151,7 +151,7 @@
 
 #print-preview-toolbar:not(:-moz-lwtheme) {
   -moz-appearance: none;
-  background-color: rgb(43, 43, 43);
+  background-color: rgb(0, 0, 0);
 }
 
 /* ::::: app menu button ::::: */
@@ -183,16 +183,16 @@
 
 #appmenu-popup {
   -moz-appearance: none;
-  background: rgb(50,50,50);
-  border: 1px solid rgb(75,75,75);
+  background: rgb(0,0,0);
+  border: 1px solid rgb(64,64,64);
 }
 #appmenuPrimaryPane {
-  background-color: rgb(62,62,62);
+  background-color: rgb(0,0,0);
   padding: 2px;
   border-inline-end: none;
 }
 #appmenuSecondaryPane {
-  background-color: rgb(50,50,50);
+  background-color: rgb(0,0,0);
   padding-inline-start: 3px;
   padding-inline-end: 2px;
   padding-top: 2px;
@@ -211,7 +211,7 @@
 }
 
 .appmenu-edit-button:not([disabled]):hover {
-  background: rgb(110,110,110);
+  background: rgb(0,0,0);
 }
 
 #appmenuSecondaryPane-spacer {
@@ -374,13 +374,13 @@ toolbarbutton.bookmark-item {
 }
 
 toolbarbutton.bookmark-item:hover {
-  background-color: rgb(75,75,75);
+  background-color: rgb(0,0,0);
   color: white;
   text-shadow: none;
 }
 
 toolbarbutton.bookmark-item:hover:active {
-  background-color: rgb(23,23,23);
+  background-color: rgb(0,0,0);
   color: white;
   text-shadow: none;
 }
@@ -564,7 +564,7 @@ toolbar[mode=full] .toolbarbutton-1 > .toolbarbutton-menubutton-button {
 }
 
 #navigator-toolbox[iconsize=large][mode=icons] > #nav-bar .toolbarbutton-1[checked]:not(:active):hover > .toolbarbutton-icon {
-  background-color: rgba(90%,90%,90%,.4);
+  background-color: rgba(0%,0%,0%,.4);
   transition: background-color .4s;
 }
 
@@ -843,9 +843,9 @@ toolbar:not([brighttext]) #tabview-button {
   padding: 2px;
   background-clip: padding-box;
   border: 1px solid;
-  border-color: rgba(75,75,75,1);
+  border-color: rgba(64,64,64,1);
   border-radius: 5px;
-  background-color: rgb(50,50,50);
+  background-color: rgb(0,0,0);
   color: #fff;
 }
 
@@ -856,8 +856,8 @@ toolbar:not([brighttext]) #tabview-button {
 
 #urlbar:-moz-lwtheme,
 .searchbar-textbox:-moz-lwtheme {
-  background-color: rgba(50,50,50,.8);
-  border-color: rgba(75,75,75,.27) rgba(75,75,75,.2) rgba(75,75,75,.18);
+  background-color: rgba(0,0,0,.8);
+  border-color: rgba(64,64,64,.27) rgba(64,64,64,.2) rgba(64,64,64,.18);
   color: #fff;
 }
 
@@ -868,7 +868,7 @@ html|*.urlbar-input:-moz-lwtheme:-moz-placeholder,
 
 #urlbar:-moz-lwtheme[focused="true"],
 .searchbar-textbox:-moz-lwtheme[focused="true"] {
-  background-color: rgb(50,50,50);
+  background-color: rgb(0,0,0);
 }
 
 #urlbar-container {
@@ -1264,19 +1264,19 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 }
 
 #sidebar-search-container {
-  background-color: #fafafa;
+  background-color: #000;
 }
 
 #sidebar-header {
   -moz-appearance: none;
   border-top: none;
   border-bottom: none;
-  background-color: rgb(50,50,50);
+  background-color: rgb(0,0,0);
   color: #fff;
 }
 
 .browserContainer > findbar {
-  background-color: rgb(43,43,43);
+  background-color: rgb(0,0,0);
   color: #fff;
   text-shadow: none;
 }
@@ -2143,14 +2143,14 @@ toolbarbutton.bookmark-item[dragover="true"][open="true"] {
 
 .KUI-panel {
   -moz-appearance: none;
-  background: rgba(27%,27%,27%,.9) url(chrome://browser/skin/KUI-background.png) repeat-x;
+  background: rgba(0%,0%,0%,.9) url(chrome://browser/skin/KUI-background.png) repeat-x;
   color: white;
   border-style: none;
   border-radius: 20px;
 }
 
 .KUI-panel[level="top"] {
-  background-color: rgba(27%,27%,27%,.65);
+  background-color: rgba(0%,0%,0%,.65);
 }
 
 .KUI-panel-closebutton {
@@ -2177,12 +2177,12 @@ toolbarbutton.bookmark-item[dragover="true"][open="true"] {
 #ctrlTab-panel {
   padding: 20px 10px 10px;
   font-weight: bold;
-  background: rgb(50,50,50);
+  background: rgb(0,0,0);
   color: #fff;
 }
 
 .ctrlTab-favicon[src] {
-  background-color: rgb(72,72,72);
+  background-color: rgb(0,0,0);
   width: 20px;
   height: 20px;
   padding: 2px;
@@ -2227,7 +2227,7 @@ toolbarbutton.bookmark-item[dragover="true"][open="true"] {
   padding-bottom: 10px;
   -moz-appearance: none;
   border: none;
-  background: rgb(50,50,50);
+  background: rgb(0,0,0);
   color: #fff;
 }
 
@@ -2245,7 +2245,7 @@ toolbarbutton.bookmark-item[dragover="true"][open="true"] {
 }
 
 .allTabs-favicon[src] {
-  background-color: rgb(75,75,75);
+  background-color: rgb(0,0,0);
   width: 22px;
   height: 22px;
   padding-top: 1px;
@@ -2267,7 +2267,7 @@ toolbarbutton.bookmark-item[dragover="true"][open="true"] {
 }
 
 .allTabs-preview-inner > .tabPreview-canvas {
-  background-color: rgb(60%,60%,60%);
+  background-color: rgb(0%,0%,0%);
   box-shadow: 0 0 1.5px ThreeDShadow;
 }
 
@@ -2280,7 +2280,7 @@ toolbarbutton.bookmark-item[dragover="true"][open="true"] {
 }
 
 #allTabs-tab-close-button {
-  background: rgb(75,75,75);
+  background: rgb(0,0,0);
   border-bottom-left-radius: 4px;
   padding: 2px 1px;
 }
@@ -2534,5 +2534,5 @@ toolbar[mode="text"] #addonbar-closebutton > .toolbarbutton-icon {
 }
 
 #main-window[treestyletab-mode=vertical]:not([treestyletab-style]) .treestyletab-tabbar-placeholder {
-  background: rgb(43,43,43) !important;
+  background: rgb(0,0,0) !important;
 }

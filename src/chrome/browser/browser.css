@@ -1367,6 +1367,7 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 
 .tabbrowser-tab[selected="true"] {
   background-image: var(--tab-selected-background);
+  border-bottom: transparent !important;
 }
 
 .tabbrowser-tab[pinned][titlechanged]:not([selected="true"]) {

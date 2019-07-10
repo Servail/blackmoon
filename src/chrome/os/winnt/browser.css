@@ -1,7 +1,7 @@
 :root {
   --appmenu-background: rgba(0,0,0,.85);
   --appmenu-border-color: rgba(0,0,0,.15);
-  --appmenu-border-radius: 4px;
+  --appmenu-border-radius: 0px;
 }
 
 /* ::::: app menu button ::::: */

@@ -1,5 +1,5 @@
 # Black Moon
-![Preview](https://i.imgur.com/38XTZLf.png)
+![Preview](https://i.imgur.com/c8T1EnC.png)
 
 Black theme for Pale Moon, based on [Dark Moon](https://github.com/Lootyhoof/darkmoon).
 

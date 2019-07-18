@@ -2,6 +2,7 @@
 ![Preview](https://i.imgur.com/c8T1EnC.png)
 
 Black minimalistic theme for Pale Moon, based on [Dark Moon](https://github.com/Lootyhoof/darkmoon).
+
 No colors, no round corners, almost no light. Extremely compact and easy on eyes. Very useful with linear gamma.
 
 ## Building

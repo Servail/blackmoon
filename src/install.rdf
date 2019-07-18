@@ -12,14 +12,14 @@
     <em:version>0.1.0</em:version>
     <em:name>Black Moon</em:name>
     <em:description>Black minimalistic theme.</em:description>
-    <em:creator>Lootyhoof</em:creator>
+    <em:creator>Servail</em:creator>
     <em:type>4</em:type>
     <em:internalName>blackmoon</em:internalName>
     <em:skinnable>true</em:skinnable>
 
+    <em:contributor>Lootyhoof</em:contributor>
     <em:contributor>Louis Chan</em:contributor>
     <em:contributor>Graciliano</em:contributor>
-    <em:contributor>Servail</em:contributor>
 
     <em:targetApplication>
       <Description>

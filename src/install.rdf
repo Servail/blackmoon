@@ -9,7 +9,7 @@
 
   <Description about="urn:mozilla:install-manifest">
     <em:id>blackmoon@servail-pm</em:id>
-    <em:version>0.1.0</em:version>
+    <em:version>0.1.1</em:version>
     <em:name>Black Moon</em:name>
     <em:description>Black minimalistic theme.</em:description>
     <em:creator>Servail</em:creator>

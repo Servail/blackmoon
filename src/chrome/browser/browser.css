@@ -20,20 +20,20 @@
   --toolbar-border: rgba(64,64,64,1);
   --toolbar-highlight-top: rgba(32,32,32);
   --toolbar-highlight-bottom: var(--toolbar-highlight-top);
-  
+
   --toolbarbutton-background-color: hsla(210,32%,93%,0);
   --toolbarbutton-border-color: hsla(210,54%,20%,0) hsla(210,54%,20%,0) hsla(210,54%,20%,0);
   --toolbarbutton-box-shadow: 0 1px hsla(0,0%,100%,0) inset, 0 1px hsla(210,54%,20%,0), 0 0 2px hsla(210,54%,20%,0);
   --toolbarbutton-active-background-color: rgb(75,75,75);
   --toolbarbutton-active-border-color: var(--toolbarbutton-border-color);
   --toolbarbutton-active-box-shadow: var(--toolbarbutton-box-shadow);
-  
+
   --toolbarbutton-image: url("chrome://browser/skin/Toolbar.svg#toolbar");
   --toolbarbutton-inverted-image: url("chrome://browser/skin/Toolbar.svg#darktext");
-  
+
   --urlbar-dropmarker-background: transparent;
   --urlbar-dropmarker-box-shadow: -3px 0 0 -2px #D0D0D0;
-  
+
   --window-text-color: currentColor;
 }
 
@@ -64,11 +64,11 @@
 }
 
 #menubar-items {
-  -moz-box-orient: vertical; 
+  -moz-box-orient: vertical;
 }
 
 #main-menubar {
-  -moz-box-flex: 1; 
+  -moz-box-flex: 1;
 }
 
 #navigator-toolbox {
@@ -81,7 +81,7 @@
 #navigator-toolbox::after {
   content: "";
   display: -moz-box;
-  -moz-box-ordinal-group: 101; 
+  -moz-box-ordinal-group: 101;
   height: 1px;
   background-color: rgba(0,0,0,1);
 }
@@ -327,7 +327,7 @@ menuitem.bookmark-item {
   -moz-image-region: rect(2px, 198px, 18px, 182px);
 }
 
-.bookmark-item[container][livemark] { 
+.bookmark-item[container][livemark] {
   -moz-image-region: rect(2px, 238px, 18px, 222px);
 }
 
@@ -620,7 +620,7 @@ toolbar[mode=full] .toolbarbutton-1 > .toolbarbutton-menubutton-button {
 window:not([chromehidden~=toolbar]) #navigator-toolbox[iconsize=large][mode=icons] > :-moz-any(#nav-bar[currentset*="unified-back-forward-button,urlbar-container"],#nav-bar:not([currentset])) > #unified-back-forward-button > #forward-button > .toolbarbutton-icon {
   margin-inline-start: -4px !important;
   margin-inline-end: -2px !important;
-  
+
   padding-left: 2px;
   padding-right: 2px;
 }
@@ -1072,7 +1072,7 @@ window:not([chromehidden~=toolbar]) #navigator-toolbox[iconsize=large][mode=icon
 .autocomplete-treebody::-moz-tree-image(tag, treecolAutoCompleteImage),
 .private-autocomplete-treebody::-moz-tree-image(tag, treecolAutoCompleteImage) {
   list-style-image: url("chrome://browser/skin/places/places.svg#tag");
-  width: 16px; 
+  width: 16px;
   height: 16px;
 }
 
@@ -1105,9 +1105,9 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
   color: inherit !important;
 }
 
-.autocomplete-treebody::-moz-tree-cell-text(suggesthint, treecolAutoCompleteComment), 
+.autocomplete-treebody::-moz-tree-cell-text(suggesthint, treecolAutoCompleteComment),
 .autocomplete-treebody::-moz-tree-cell-text(suggestfirst, treecolAutoCompleteComment),
-.private-autocomplete-treebody::-moz-tree-cell-text(suggesthint, treecolAutoCompleteComment), 
+.private-autocomplete-treebody::-moz-tree-cell-text(suggesthint, treecolAutoCompleteComment),
 .private-autocomplete-treebody::-moz-tree-cell-text(suggestfirst, treecolAutoCompleteComment) {
   color: GrayText;
   font-size: smaller;
@@ -1327,11 +1327,11 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
   /* top margin of 0 is important for Fitts' Law in ToT/FS */
   margin: 0;
   padding: 3px 3px 3px 1px;
-  border: 1px solid var(--tab-border-color);
-  /* border-bottom: 0px; */
+  border: transparent;
+  border-bottom: gray 1px solid;
   border-radius: var(--tab-border-radius) var(--tab-border-radius) 0 0;
   box-shadow: var(--tab-box-shadow);
-  margin-inline-start: -1px;
+  margin-inline-start: 0px;
   color: #fff;
 }
 
@@ -1399,7 +1399,7 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 }
 
 #tabbrowser-tabs[positionpinnedtabs] > .tabbrowser-tab[pinned] {
-  min-height: 16px; 
+  min-height: 16px;
 }
 
 .tab-throbber[pinned],
@@ -1428,18 +1428,23 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
   -moz-appearance: none;
   border: none;
   padding: 0px;
+  opacity: 0;
+}
+
+.tab-close-button:hover {
+  opacity: 0.5;
 }
 
 .tab-close-button:-moz-lwtheme-darktext {
   filter: invert(100%);
-}  
+}
 
 .tab-close-button:-moz-system-metric(touch-enabled) {
   -moz-transform: scale(1.2);
 }
 
 .tab-close-button:not([selected]):not(:hover):not(:active) {
-  opacity: 0.4;
+  opacity: 0;
 }
 
 .tab-close-button:focus {
@@ -1591,7 +1596,7 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
   }
 
   .tab-content {
-    min-height: -moz-calc(6.8mozmm - 7px); 
+    min-height: -moz-calc(6.8mozmm - 7px);
   }
 }
 
@@ -1664,7 +1669,7 @@ toolbar:not([brighttext]) #alltabs-button:not([type="menu"]) {
 
 #alltabs-button:not([type="menu"]):hover:active {
   list-style-image: url("chrome://browser/skin/tabbrowser/alltabs.svg#active");
-}  
+}
 
 #main-window[sizemode="normal"][tabsontop=true] #alltabs-button {
   margin-top: 5px;
@@ -1741,7 +1746,7 @@ toolbarbutton.chevron > .toolbarbutton-icon {
 }
 
 toolbar[mode="text"] toolbarbutton.chevron > .toolbarbutton-icon {
-  display: -moz-box; 
+  display: -moz-box;
 }
 
 #sidebar-throbber[loading="true"] {
@@ -1763,7 +1768,7 @@ toolbarbutton.bookmark-item[dragover="true"][open="true"] {
 
 .menupopup-drop-indicator-bar {
   position: relative;
-  
+
   margin-top: -1px;
   margin-bottom: -1px;
 }
@@ -1974,7 +1979,7 @@ toolbarbutton.bookmark-item[dragover="true"][open="true"] {
 
 #notification-popup-box {
   position: relative;
-  
+
   background-clip: padding-box;
   padding-left: 3px;
   padding-right: 2px;

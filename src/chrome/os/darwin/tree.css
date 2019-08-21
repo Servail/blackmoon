@@ -8,13 +8,13 @@
 
 tree {
   color: -moz-DialogText;
-  background-color: #FFFFFF;
+  background-color: #000000;
 }
 
 /* ::::: tree focusring ::::: */
 
 .focusring > .tree-stack > .tree-rows > .tree-bodybox {
-  border: 1px solid transparent;  
+  border: 1px solid transparent;
 }
 
 .focusring:focus > .tree-stack > .tree-rows > .tree-bodybox {
@@ -87,7 +87,7 @@ treechildren::-moz-tree-separator {
 tree[seltype="cell"] > treechildren::-moz-tree-cell(primary, dropOn),
 tree[seltype="text"] > treechildren::-moz-tree-cell(primary, dropOn),
 treechildren::-moz-tree-cell(primary, dropOn) {
-  background-color: #A1A1A1 !important;
+  background-color: #020202 !important;
   color: #FFF !important;
   background-image: none;
 }
@@ -98,7 +98,7 @@ treechildren::-moz-tree-cell-text(primary, dropOn) {
 }
 
 treechildren::-moz-tree-drop-feedback {
-  background-color: #A1A1A1;
+  background-color: #020202;
 }
 
 /* ::::: tree progress meter ::::: */
@@ -131,7 +131,7 @@ treecolpicker:hover:active {
   -moz-border-right-colors: ThreeDDarkShadow;
   -moz-border-bottom-colors: ThreeDDarkShadow;
   -moz-border-left-colors: ThreeDDarkShadow ThreeDShadow;
-  background-color: #666666;
+  background-color: #000000;
 }
 
 /* ::::: column drag and drop styles ::::: */

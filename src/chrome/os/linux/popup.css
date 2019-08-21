@@ -20,7 +20,7 @@ menupopup {
   -moz-border-left-colors  : rgb(75,75,75);
   -moz-border-right-colors : rgb(23,23,23);
   -moz-border-bottom-colors: rgb(23,23,23);
-  background: rgb(43,43,43);
+  background: rgb(0,0,0);
 }
 
 /* ::::: arrow panel ::::: */
@@ -44,7 +44,7 @@ panel[type="arrow"][side="right"] {
 .panel-arrowcontent {
   padding: 10px;
   color: #fff;
-  background: rgb(50,50,50);
+  background: rgb(0,0,0);
   border: 1px solid rgb(75,75,75);
 }
 
@@ -87,11 +87,11 @@ panel[type="arrow"][side="right"] {
 tooltip {
   -moz-appearance: none;
   margin-top: 21px;
-  border: 1px solid rgb(75,75,75);
+  border: 1px solid rgb(64,64,64);
   /* GTK hardcodes this to 4px */
   padding: 4px;
   max-width: 40em;
-  background-color: rgb(110,110,110);
+  background-color: rgb(0,0,0);
   color: #fff;
   font: message-box;
 }
@@ -109,4 +109,3 @@ menulist > menupopup {
   padding: 0px;
   min-width: 0px;
 }
-

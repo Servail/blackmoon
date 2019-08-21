@@ -46,7 +46,7 @@ radio[focused="true"] > .radio-label-box {
 /* ..... disabled state ..... */
 
 radio[disabled="true"] > .radio-check-box1 {
-  background-color: rgb(62,62,62);
+  background-color: rgb(0,0,0);
 }
 
 radio[disabled="true"] {
@@ -65,7 +65,7 @@ radio[disabled="true"] {
   border-radius: 50%;
   width: 12px;
   height: 12px;
-  background-color: rgb(50,50,50);
+  background-color: rgb(0,0,0);
 }
 
 .radio-check-box2 {
@@ -81,7 +81,7 @@ radio[disabled="true"] {
 }
 
 radio:hover:active > .radio-check-box1 {
-  background-color: rgb(110,110,110);
+  background-color: rgb(0,0,0);
 }
 
 /* ..... selected state ..... */

@@ -19,8 +19,8 @@
 .popup-notification-menubutton > .button-menubutton-dropmarker {
   -moz-appearance: none;
   margin: 0;
-  border: 1px solid rgb(75,75,75);
-  background: rgb(50,50,50);
+  border: 1px solid rgb(64,64,64);
+  background: rgb(0,0,0);
 }
 
 .popup-notification-menubutton > .button-menubutton-button {
@@ -60,14 +60,14 @@
 .popup-notification-menubutton:not([type="menu-button"]):hover,
 .popup-notification-menubutton > .button-menubutton-button:hover,
 .popup-notification-menubutton > .button-menubutton-dropmarker:hover {
-  background: rgb(75,75,75);
+  background: rgb(0,0,0);
 }
 
 .popup-notification-menubutton:not([type="menu-button"]):hover:active,
 .popup-notification-menubutton > .button-menubutton-button:hover:active,
 .popup-notification-menubutton > .button-menubutton-dropmarker:hover:active,
 .popup-notification-menubutton[open="true"] > .button-menubutton-dropmarker {
-  background: rgb(23,23,23);
+  background: rgb(0,0,0);
 }
 
 .popup-notification-closebutton {

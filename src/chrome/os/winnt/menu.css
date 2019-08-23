@@ -135,7 +135,7 @@ menubar > menu:-moz-lwtheme:not([disabled="true"]) {
 }
 
 menubar > menu:-moz-lwtheme[_moz-menuactive="true"]:not([disabled="true"]) {
-  background-color: rgb(1,1,1);
+  background-color: rgb(64,64,64);
   color: #fff !important;
   text-shadow: none;
 }
@@ -166,7 +166,7 @@ menupopup > menucaption {
 menu[_moz-menuactive="true"],
 menuitem[_moz-menuactive="true"],
 .splitmenu-menuitem[_moz-menuactive="true"] {
-  background-color: rgb(1,1,1) !important;
+  background-color: rgb(64,64,64) !important;
   color: #fff !important;
 }
 
@@ -199,7 +199,7 @@ menulist > menupopup > menu > label {
 
 menulist:-moz-focusring > menupopup > menuitem[_moz-menuactive="true"] {
   border: 1px dotted rgb(64,64,64);
-  background-color: rgb(1,1,1);
+  background-color: rgb(64,64,64);
   color: #fff;
 }
 

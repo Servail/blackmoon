@@ -1430,7 +1430,7 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
   -moz-appearance: none;
   border: none;
   padding: 0px;
-  opacity: 0;
+  opacity: 0.25;
 }
 
 .tab-close-button:hover {
@@ -1446,7 +1446,7 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 }
 
 .tab-close-button:not([selected]):not(:hover):not(:active) {
-  opacity: 0;
+  opacity: 0.25;
 }
 
 .tab-close-button:focus {

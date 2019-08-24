@@ -1,5 +1,5 @@
 # Black Moon
-![Preview](https://i.imgur.com/o2D2yuh.png) (Font is [CatseyeClearCode](https://github.com/Servail/fonts))
+![Preview](https://i.imgur.com/KmiR1Gj.png) (Font is [CatseyeClearCode](https://github.com/Servail/fonts))
 
 Black minimalistic theme for Pale Moon, based on [Dark Moon](https://github.com/Lootyhoof/darkmoon).
 

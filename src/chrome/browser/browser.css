@@ -1430,7 +1430,11 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
   -moz-appearance: none;
   border: none;
   padding: 0px;
-  opacity: 0;
+  opacity: 1;
+}
+
+.tab-close-button:hover {
+  opacity: 1;
 }
 
 .tab-close-button[selected] {
@@ -1438,10 +1442,6 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
   border: none;
   padding: 0px;
   opacity: 1;
-}
-
-.tab-close-button:hover {
-  opacity: 0.5;
 }
 
 .tabbrowser-tab:not([pinned]):not(:hover) .tab-close-button {
@@ -1461,7 +1461,7 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 }
 
 .tab-close-button:not([selected]):not(:hover):not(:active) {
-  opacity: 0;
+  opacity: 1;
 }
 
 .tab-close-button:focus {

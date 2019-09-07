@@ -449,7 +449,7 @@ toolbar[mode=full] .toolbarbutton-1 > .toolbarbutton-menubutton-button {
 #navigator-toolbox[iconsize=large][mode=icons] > #nav-bar .toolbarbutton-1:not([type=menu-button]),
 #navigator-toolbox[iconsize=large][mode=icons] > #nav-bar .toolbarbutton-1 > .toolbarbutton-menubutton-button,
 #navigator-toolbox[iconsize=large][mode=icons] > #nav-bar .toolbarbutton-1 > .toolbarbutton-menubutton-dropmarker {
-  padding: 5px 2px;
+  padding: 0px;
   -moz-box-pack: center;
 }
 
@@ -1430,11 +1430,26 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
   -moz-appearance: none;
   border: none;
   padding: 0px;
-  opacity: 0.25;
+  opacity: 0;
+}
+
+.tab-close-button[selected] {
+  -moz-appearance: none;
+  border: none;
+  padding: 0px;
+  opacity: 1;
 }
 
 .tab-close-button:hover {
   opacity: 0.5;
+}
+
+.tabbrowser-tab:not([pinned]):not(:hover) .tab-close-button {
+  visibility: collapse !important;
+}
+
+.tabbrowser-tab:not([pinned]):hover .tab-close-button {
+  visibility: visible !important; display: block !important;
 }
 
 .tab-close-button:-moz-lwtheme-darktext {
@@ -1446,7 +1461,7 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 }
 
 .tab-close-button:not([selected]):not(:hover):not(:active) {
-  opacity: 0.25;
+  opacity: 0;
 }
 
 .tab-close-button:focus {
